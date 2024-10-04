@@ -54,3 +54,14 @@
     width: 50%;
   }
 }
+
+@media only screen and (min-width: 1100px) and (max-width: 1388px){
+  .service .card-img-top{
+    min-height: 130px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+  .service .card-img-top{
+    max-height: 120px;
+  }
+}
