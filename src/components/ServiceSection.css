@@ -1,0 +1,56 @@
+.service {
+  background-color: #F1F1F1;
+  padding-top: 100px;
+  padding-bottom: 97px;
+}
+
+.service .card{
+  padding: 30px;
+
+}
+.service h2{
+  margin-bottom: 65px;
+  margin-top: 30px;
+}
+
+.service .premium-card img{
+  width: 62%;
+  max-height: unset;
+}
+
+.service .card-img-top{
+  max-height: 160px;
+}
+
+.service  .premium-card{
+  background-image: url(../images/servicecardbg2.png);
+  background-size: cover;
+}
+
+.service  .small-card{
+  background-image: url(../images/servicecardbg3.png);
+  background-size: cover;
+}
+
+.service .small-card img{
+  width: 50%;
+}
+
+.service .carding-space{
+  padding: 15px;
+} 
+
+.service .card-title{
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 1023px){
+  .service .premium-card{
+    display: flex;
+    flex-direction: row;
+  }
+  .service .premium-card .card-body{
+    width: 50%;
+  }
+}

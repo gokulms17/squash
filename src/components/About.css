@@ -1,0 +1,26 @@
+
+.icon-with-heading {
+  border: 1px solid #BBBBBB;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 30px;
+}
+.about h2{
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.about p{
+  margin-bottom: 49px;
+}
+.about {
+  padding-bottom: 100px;
+}
+.about .heading{
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+  .about .container{
+    gap: 30px;
+  }
+}

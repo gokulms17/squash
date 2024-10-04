@@ -1,0 +1,92 @@
+.subscribe{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+  background: rgba(200, 140, 221, 0.4);
+  border-radius: 30px;
+}
+
+.subscribe h2{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.subscribe-section {
+  padding-top: 215px;
+  padding-bottom: 100px;
+}
+
+.subscribe-heading {
+  text-shadow: 2px 2px 4px rgba(8, 32, 68, 0.15);
+}
+
+.subscribe-form {
+  display: flex; 
+  align-items: center; 
+}
+
+.subscribe .subscribe-input {
+  padding: 20px; 
+  border: none;
+  border-radius: 10px; 
+  flex: 1; 
+
+}
+
+.subscribe .subscribe-button {
+  padding: 10px 20px; 
+  color: white; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  right: 30px;
+}
+
+.subscribe-button:hover {
+  background-color: #16304e; 
+}
+
+@media only screen and (min-width: 1024px){
+  .tree-house{
+    bottom: -16px;
+    right: 100px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .subscribe{
+   padding: 30px;
+    background: rgba(200, 140, 221, 0.4);
+    border-radius: 30px;
+  }
+  .subscribe h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 30px 0;
+  }
+  .subscribe-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1400px){
+  .tree-house{
+    width: 35%;
+    right: 50px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width:1023px){
+  .subscribe-content{
+    width: 100% !important;
+  }
+}
+
+

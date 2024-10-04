@@ -1,0 +1,75 @@
+.footer {
+  background-color: #120326; 
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 50px; 
+}
+
+.footer-column {
+  margin-bottom: 20px; 
+}
+
+.footer-logo {
+  margin-bottom: 15px; 
+  object-fit: cover;
+}
+
+.footer-description {
+  margin-bottom: 10px; 
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px; 
+}
+
+.footer p{
+  color: white;
+}
+
+.footer p, .footer li, .footer h3{
+  padding-bottom: 20px
+}
+
+.footer ul{
+  padding-left: 1rem;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: white;
+  padding: 11px;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.subscribe-input {
+  display: flex;
+
+}
+
+.footer hr{
+  margin: 50px 0;
+}
+
+.footer .subscribe-input input {
+  flex: 1; 
+  padding: 11px; 
+  border: none; 
+  border-radius: 5px; 
+
+}
+
+.footer .subscribe-button.bg-green {
+  padding: 11px; 
+  border: none;
+  color: white; 
+  border-radius: 0 6px 6px 0;
+  cursor: pointer; 
+  position: relative;
+  right: 37px;;
+  width: 50px;
+}
+
+

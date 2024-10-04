@@ -1,0 +1,106 @@
+
+body *{
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  overflow-x: hidden ;
+}
+/* App.css */
+
+body h1 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+}
+
+body h2 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+body h3, label {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+body h4,
+a, body  .btn-search {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+body p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #474747;
+}
+option{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+body .bg-blue{
+  background-color: #6E00FF;
+  color: white;
+}
+
+body .bg-green:hover{
+  background-color: #6E00FF;
+  color: #FFFFFF;
+}
+
+.btn:hover, body .bg-blue:hover{
+  background: #00B753;
+  color: white;
+}
+
+body .btn.bg-white:hover{
+  background: #00B753 !important;
+  color: white;
+}
+
+body .bg-green{
+  background-color: #00B753;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0;
+}
+
+.color-violet{
+  color: #6E00FF;
+}
+
+.color-green{
+  color: #00B753;
+}
+
+@media (min-width: 1600px) {
+  body .container {
+    width: 1502px;
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+}
+
+@media only screen and (max-width: 767px){
+  body h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+  }
+  
+  body h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .container{
+    padding: 0 15px;
+  }
+  
+}

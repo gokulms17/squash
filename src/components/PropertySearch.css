@@ -1,0 +1,70 @@
+/* PropertySearch.css */
+
+.property-search{
+  margin-top: -150px;
+  padding-bottom: 100px;
+}
+
+.button-group {
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+.property-search .btn {
+  margin: 0 10px; 
+  padding: 15px 30px;
+}
+
+.polygon{
+  bottom: -21px;
+  right: 36%;
+}
+
+.property-search .btn-secondary{
+  color: #474747;
+}
+
+.flex-container {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding:30px 112px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(211, 211, 211, 0.5); 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; 
+  padding-right: 80px;
+  border-right: 1px solid #474747;
+}
+
+.form-group label{
+  padding-left: 12px;
+  background-size: 30px;
+  margin-right: 20px;
+}
+
+.property-search .form-select{
+  background-image: url(../images/CaretDown.png);
+  --bs-form-select-bg-img: url(../images/CaretDown.png) !important;
+  background-size: 30px;
+  margin-right: 10px;
+}
+
+.form-control {
+  margin-top: 5px; 
+  padding: 10px; 
+}
+
+.btn-search {
+  margin-left: 20px; 
+}
+
+@media only screen and (max-width: 767px){
+  .property-search .form-select{
+    margin-bottom: 20px;
+  }
+}

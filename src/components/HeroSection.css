@@ -1,0 +1,35 @@
+/* HeroSection.css */
+
+.hero-section {
+  background-image: url('../images/Bg.png'); 
+  background-size: cover; 
+  background-position: center; 
+  padding-top: 267px;
+  padding-bottom: 230px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+  text-align: center; 
+}
+
+.hero-description {
+ color: #EDEFF6;
+}
+
+.leftHero{
+  top: 20%;
+  left: -50px;
+
+}
+
+.rightHero{
+  bottom: 20%;
+  right: -50px;
+}
+
+@media only screen and (max-width: 767px){
+  .hero-section{
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,115 @@
+.property{
+  padding-top: 100px;
+  padding-bottom: 97px;
+}
+
+.property .property-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #BBBBBB;
+  margin: 15px 0;
+}
+
+.property-image-container {
+  position: relative;
+}
+
+.property-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.property h2{
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+
+.image-buttons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+}
+
+.button-prop{
+  margin-top: 65px;
+}
+
+.image-buttons .btn {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.property-info {
+  padding: 30px;
+}
+
+.property-info h3{
+  font-weight: 500;
+}
+
+.amount {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.icons-info {
+  margin-bottom: 10px;
+}
+
+.icons-info span{
+  margin-right: 24px;
+  color: #6D737A;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.icons-info span svg {
+  width: 24px;
+}
+
+.property-card  hr {
+  margin: 15px 0;
+}
+
+.testimonial-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-share {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.social-share svg {
+  color: #6E00FF;
+  width: 22px;
+  height: 22px;
+  background: #F1F1F1;
+  padding: 4px;
+}
+
+.property .btn.bg-green{
+  padding: 12px 25px;
+}

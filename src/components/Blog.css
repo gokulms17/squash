@@ -1,0 +1,58 @@
+.blog{
+  background: #F1F1F1;
+  padding-top: 100px;
+  padding-bottom: 101px;
+}
+.blog-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blog h2{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.blog-image-container {
+  position: relative;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+}
+
+.date-badge {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: white;
+  color: #2B2B2B;
+  padding: 10px 35px;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+
+.meta-info {
+  margin: 20px 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.blog-title {
+  margin-bottom: 20px;
+}
+
+.blog-date{
+  border-right: 2px solid #6E00FF;
+  padding-right: 15px;
+}
+.blog-author{
+  padding-left: 15px;
+}
+.blog-date, .blog-author{
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}

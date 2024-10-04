@@ -1,0 +1,101 @@
+
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+  padding: 20px; 
+}
+
+.testimonial-carousel {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonial-carousel h2{
+margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.testimonial-author {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%; 
+  background-color: #F1F1F1;
+  padding: 25px 23px;
+}
+
+.author-info {
+  text-align: left;
+}
+
+.author-info p{
+  color: #B35DD1;
+  margin: 0;
+  font-size: 18px;
+}
+
+.author-info h3{
+  margin-bottom: 10px;
+}
+
+.social-share {
+  display: flex; 
+  gap: 10px;
+  align-items: flex-end; 
+}
+
+.social-share svg{
+  color: #000000;
+  width: 22px;
+  height: 24px;
+}
+
+.social-icon {
+  font-size: 1.5rem; 
+  cursor: pointer; 
+}
+
+.testimonial-arrow.next-item{
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  cursor: pointer;
+}
+
+.testimonial-arrow.prev-item{
+  position: absolute;
+  top: 50%;
+  left:  -80px;
+  transform: rotate(180deg);
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.testimonial-arrow:hover svg circle{
+  fill: #6E00FF;
+  stroke: #6E00FF;
+}
+
+.testimonial-arrow:hover svg path{
+  fill: white;
+}
+
+@media only screen and (max-width: 1100px){
+  .testimonial-arrow.next-item{
+    right: -20px;
+  }
+  .testimonial-arrow.prev-item{
+    left:  -20px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .testimonial-arrow.next-item{
+    right: 0;
+  }
+  .testimonial-arrow.prev-item{
+    left:  0;
+  }
+}
