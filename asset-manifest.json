@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/squash/static/css/main.2d2969bf.css",
+    "main.css": "/squash/static/css/main.2d2cf900.css",
     "main.js": "/squash/static/js/main.6f975fc3.js",
     "static/js/453.68693753.chunk.js": "/squash/static/js/453.68693753.chunk.js",
     "static/media/Bg.png": "/squash/static/media/Bg.1885ecf23c4a7acfef03.png",
@@ -41,12 +41,12 @@
     "index.html": "/squash/index.html",
     "static/media/testimonialarrow.svg": "/squash/static/media/testimonialarrow.5e4f7d668b5986f034d72812c1950945.svg",
     "static/media/Vector.svg": "/squash/static/media/Vector.640d6ec78489c7fcea281ddd3d04f9e6.svg",
-    "main.2d2969bf.css.map": "/squash/static/css/main.2d2969bf.css.map",
+    "main.2d2cf900.css.map": "/squash/static/css/main.2d2cf900.css.map",
     "main.6f975fc3.js.map": "/squash/static/js/main.6f975fc3.js.map",
     "453.68693753.chunk.js.map": "/squash/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d2969bf.css",
+    "static/css/main.2d2cf900.css",
     "static/js/main.6f975fc3.js"
   ]
 }
