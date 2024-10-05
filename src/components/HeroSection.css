@@ -32,4 +32,14 @@
   .hero-section{
     padding-top: 100px;
   }
+  .leftHero{
+    top: 20%;
+    left: -66px;
+    width: 32%;
+  }
+  .rightHero{
+    bottom: 20%;
+    right: -42px;
+    width: 27%;
+  }
 }
